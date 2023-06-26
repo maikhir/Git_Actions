@@ -9,7 +9,7 @@ jobs:
       - name: run a second line 
         run: echo Hello Maik!
   second_job:
-    runs-on: Windows-2022
+    runs-on: windows-2022
     steps:
       - name: Run a one-line script
         run: echo Hello, Windows !
